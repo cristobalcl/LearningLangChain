@@ -10,7 +10,12 @@ Copy `notebooks/.env_sample` to `notebooks/.env`:
 cp notebooks/.env_sample notebooks/.env
 ```
 
-Edit `notebooks/.env` and put your OpenAI API key.
+Edit `notebooks/.env` and put your OpenAI API key (and the SerpApi key for the code that need it).
+
+To obtain API keys:
+
+- OpenAI: https://platform.openai.com/
+- SerpApi: https://serpapi.com/
 
 To open and run the notebooks you can use Docker:
 
