@@ -1,2 +1,4 @@
 notebooks/.env
 notebooks/.ipynb_checkpoints
+notebooks/.chroma
+notebooks/*.md
