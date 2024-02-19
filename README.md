@@ -21,7 +21,7 @@ To open and run the notebooks you can use Docker:
 
 ```
 cd notebooks
-docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work jupyter/datascience-notebook:python-3.9
+docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work jupyter/datascience-notebook:python-3.10
 ```
 
 In your web browser, go to the URL shown in the output.
